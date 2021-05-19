@@ -12,7 +12,7 @@ import Home from './components/Home.jsx';
 class App extends React.Component {
   render(){
   return (
-    <BrowserRouter basename={window.location.pathname || ''}> 
+    <BrowserRouter> 
     <Route exact strict path="/event-management" component={Home} />
      
       
