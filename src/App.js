@@ -13,9 +13,9 @@ class App extends React.Component {
   render(){
   return (
     <BrowserRouter> 
-    <Route exact strict path="/event-management" component={Home} />
-     
-      
+    
+    
+    <Route path="/event-management" exact strict component={Home} />
       <Route path="/" exact strict component={Home}/>
       <Route path="/addtocart" exact strict  component={Cart}/>
       <Route path="/signup" exact strict  component={Signup}/>
