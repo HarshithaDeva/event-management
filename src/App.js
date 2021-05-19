@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { HashRouter, Route , Switch} from 'react-router-dom';
 import About from './components/About.jsx';
 import Signup from './components/Signup.jsx';
 import Login from './components/Login.jsx';
@@ -12,7 +12,7 @@ import Home from './components/Home.jsx';
 class App extends React.Component {
   render(){
   return (
-    <BrowserRouter> 
+    <HashRouter> 
        
        <Switch>
        <Route path="/event-management" exact strict component={Home} />
@@ -27,7 +27,7 @@ class App extends React.Component {
      <Route path="/about" exact strict  component={About}/>
      
        </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
   }
 }
