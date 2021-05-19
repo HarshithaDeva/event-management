@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/event-management/static/css/main.21f754c2.chunk.css",
+    "main.js": "/event-management/static/js/main.ee4fa9a7.chunk.js",
+    "main.js.map": "/event-management/static/js/main.ee4fa9a7.chunk.js.map",
+    "runtime-main.js": "/event-management/static/js/runtime-main.12605f17.js",
+    "runtime-main.js.map": "/event-management/static/js/runtime-main.12605f17.js.map",
+    "static/js/2.6ff6aa9f.chunk.js": "/event-management/static/js/2.6ff6aa9f.chunk.js",
+    "static/js/2.6ff6aa9f.chunk.js.map": "/event-management/static/js/2.6ff6aa9f.chunk.js.map",
+    "index.html": "/event-management/index.html",
+    "static/css/main.21f754c2.chunk.css.map": "/event-management/static/css/main.21f754c2.chunk.css.map",
+    "static/js/2.6ff6aa9f.chunk.js.LICENSE.txt": "/event-management/static/js/2.6ff6aa9f.chunk.js.LICENSE.txt",
+    "static/media/gk.880b88e3.jpg": "/event-management/static/media/gk.880b88e3.jpg",
+    "static/media/gothami.3ebd73eb.jpg": "/event-management/static/media/gothami.3ebd73eb.jpg",
+    "static/media/harshitha.94404b76.jpg": "/event-management/static/media/harshitha.94404b76.jpg",
+    "static/media/jahnu.982b8d28.jpg": "/event-management/static/media/jahnu.982b8d28.jpg",
+    "static/media/jansi.dd712856.jpeg": "/event-management/static/media/jansi.dd712856.jpeg",
+    "static/media/logo.aec5a08a.png": "/event-management/static/media/logo.aec5a08a.png",
+    "static/media/mani.1ba9ec67.jpg": "/event-management/static/media/mani.1ba9ec67.jpg",
+    "static/media/nivi.2d74b313.png": "/event-management/static/media/nivi.2d74b313.png",
+    "static/media/rashmika.216db037.jpg": "/event-management/static/media/rashmika.216db037.jpg",
+    "static/media/yoshini.c785040f.png": "/event-management/static/media/yoshini.c785040f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.12605f17.js",
+    "static/js/2.6ff6aa9f.chunk.js",
+    "static/css/main.21f754c2.chunk.css",
+    "static/js/main.ee4fa9a7.chunk.js"
+  ]
+}
