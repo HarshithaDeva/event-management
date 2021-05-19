@@ -1,0 +1,46 @@
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        
+       
+    }
+    
+     header.navbar{
+        padding: 2px 3%;
+        opacity: 1;
+        background-color:	white;
+         
+    }
+    .section1 .navbar{
+      padding: 15px 3%;
+      opacity: 1;
+      background-color:	white;
+       
+  }
+    header li:hover{
+        background-color: whitesmoke;
+        border-radius: 5px;
+    }
+        .bd-placeholder-img {
+       font-size: 1.125rem;
+       text-anchor: middle;
+       -webkit-user-select: none;
+       -moz-user-select: none;
+       user-select: none;
+     }
+  
+     @media (min-width: 768px) {
+       .bd-placeholder-img-lg {
+         font-size: 3.5rem;
+       }
+     }
+  .abtbody{
+    overflow-x:hidden ;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAEsCAMAAABgwwj8AAAAA1BMVEX97Pa8czaQAAAASElEQVR4nO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+BsYMAAFjd3WkAAAAAElFTkSuQmCC");
+    
+  }
+  .row h3{
+    color: #04badf;;
+
+  }

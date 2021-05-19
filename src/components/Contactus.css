@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#head{
+
+  font-family:"Original Surfer";
+  color: rgba(231, 21, 119, 0.966);
+}
+.sform{
+  background-color: #ccf2f4;
+  
+}
+
+
+.imgss{
+  background-image:url("https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-green-gradient-watercolor-oil-painting-background-care-productsadvertising-background-image_87724.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cform{
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+#submit{
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: rgb(59, 194, 240);
+  justify-content: center;
+}
+
+
+
+
+.soc .fa {
+
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #4dacf5;
+  color: white;
+}
+
+.fa-google {
+  background: #ec422b;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #e75c86;
+  color: white;
+}
+
