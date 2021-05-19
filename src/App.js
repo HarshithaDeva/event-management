@@ -13,7 +13,7 @@ class App extends React.Component {
   render(){
   return (
     <BrowserRouter basename={window.location.pathname || ''}> 
-    <Route exact strict path="/event-management/" component={Home} />
+    <Route exact strict path="/event-management" component={Home} />
      
       
       <Route path="/" exact strict component={Home}/>
