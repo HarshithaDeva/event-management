@@ -15,7 +15,7 @@ class App extends React.Component {
     <BrowserRouter basename={process.env.PUBLIC_URL}> 
     
     
-    <Route path="/event-management" exact strict component={Home} />
+    <Route path="/event-management" exact component={Home} />
       <Route path="/" exact strict component={Home}/>
       <Route path="/addtocart" exact strict  component={Cart}/>
       <Route path="/signup" exact strict  component={Signup}/>
