@@ -12,18 +12,21 @@ import Home from './components/Home.jsx';
 class App extends React.Component {
   render(){
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}> 
-    
-    
-    <Route path="/event-management" exact component={Home} />
-      <Route path="/" exact strict component={Home}/>
-      <Route path="/addtocart" exact strict  component={Cart}/>
-      <Route path="/signup" exact strict  component={Signup}/>
-      <Route path="/blog" exact strict  component={Blog}/>
-      <Route path="/login" exact strict  component={Login}/>
-      <Route path="/contactus" exact strict  component={Contact}/>
-      <Route path="/about" exact strict  component={About}/>
+    <BrowserRouter> 
+       
+       <Switch>
+       <Route path="/event-management" exact strict component={Home} />
+     
       
+     <Route path="/" exact strict component={Home}/>
+     <Route path="/addtocart" exact strict  component={Cart}/>
+     <Route path="/signup" exact strict  component={Signup}/>
+     <Route path="/blog" exact strict  component={Blog}/>
+     <Route path="/login" exact strict  component={Login}/>
+     <Route path="/contactus" exact strict  component={Contact}/>
+     <Route path="/about" exact strict  component={About}/>
+     
+       </Switch>
     </BrowserRouter>
   );
   }
