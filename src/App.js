@@ -12,7 +12,7 @@ import Home from './components/Home.jsx';
 class App extends React.Component {
   render(){
   return (
-    <HashRouter> 
+    <BrowserRouter basename="/event-management"> 
        
        <Switch>
        <Route path="/event-management" exact strict component={Home} />
@@ -27,7 +27,7 @@ class App extends React.Component {
      <Route path="/about" exact strict  component={About}/>
      
        </Switch>
-    </HashRouter>
+    </BrowserRouter>
   );
   }
 }
